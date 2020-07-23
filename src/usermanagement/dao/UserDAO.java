@@ -1,4 +1,4 @@
-package net.javaguides.usermanagement.dao;
+package usermanagement.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -8,8 +8,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.javaguides.usermanagement.model.User;
-import net.javaguides.usermanagement.utils.JDBCUtils;
+import usermanagement.model.User;
+import usermanagement.utils.JDBCUtils;
 
 public class UserDAO {
 	

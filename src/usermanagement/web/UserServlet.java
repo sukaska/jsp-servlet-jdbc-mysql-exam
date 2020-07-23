@@ -1,4 +1,4 @@
-package net.javaguides.usermanagement.web;
+package usermanagement.web;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -11,8 +11,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import net.javaguides.usermanagement.dao.UserDAO;
-import net.javaguides.usermanagement.model.User;
+import usermanagement.dao.UserDAO;
+import usermanagement.model.User;
 
 
 
